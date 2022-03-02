@@ -1,3 +1,8 @@
+set -g prefix C-x
+unbind C-b
+bind C-x send-prefix
+set -g base-index 1
+set -g pane-base-index 1
 # : << EOF
 # https://github.com/gpakosz/.tmux
 # (‑●‑●)> dual licensed under the WTFPL v2 license and the MIT license,
